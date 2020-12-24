@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Testing Google Apps]" parallel="methods">
+  <test name="Regression(failed)" parallel="methods">
+    <classes>
+      <class name="Tests.TestCase2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Tests.TestCase2 -->
+      <class name="Tests.TestCase1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="getText"/>
+        </methods>
+      </class> <!-- Tests.TestCase1 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

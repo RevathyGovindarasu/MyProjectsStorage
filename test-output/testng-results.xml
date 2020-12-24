@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[retrieved title]]>
+    </line>
+    <line>
+      <![CDATA[Retrieved text]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27169" started-at="2020-12-24T06:40:44Z" finished-at="2020-12-24T06:41:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27169" started-at="2020-12-24T06:40:44Z" finished-at="2020-12-24T06:41:12Z">
+      <class name="Tests.TestCase1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="beforeMethod" is-config="true" duration-ms="10499" started-at="2020-12-23T22:40:44Z" finished-at="2020-12-23T22:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getURL()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="getURL" duration-ms="72" started-at="2020-12-23T22:40:55Z" finished-at="2020-12-23T22:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="afterMethod" is-config="true" duration-ms="802" started-at="2020-12-23T22:40:55Z" finished-at="2020-12-23T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="beforeMethod" is-config="true" duration-ms="7175" started-at="2020-12-23T22:40:56Z" finished-at="2020-12-23T22:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="getTitle" duration-ms="29" started-at="2020-12-23T22:41:03Z" finished-at="2020-12-23T22:41:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[retrieved title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="afterMethod" is-config="true" duration-ms="746" started-at="2020-12-23T22:41:03Z" finished-at="2020-12-23T22:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="beforeMethod" is-config="true" duration-ms="6575" started-at="2020-12-23T22:41:04Z" finished-at="2020-12-23T22:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getText()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="getText" duration-ms="324" started-at="2020-12-23T22:41:10Z" finished-at="2020-12-23T22:41:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Retrieved text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.TestCase1@4563e9ab]" name="afterMethod" is-config="true" duration-ms="884" started-at="2020-12-23T22:41:11Z" finished-at="2020-12-23T22:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Tests.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
