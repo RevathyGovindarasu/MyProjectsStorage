@@ -3,6 +3,7 @@ package Tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -57,6 +58,8 @@ public class TestCase1 {
   {
 	  String tex = SetUp.driver.getTitle();
 	  System.out.println(tex);
+	  String Expectedtitle = "Google";
+	  Assert.assertEquals(tex, Expectedtitle);
 	  Reporter.log("retrieved title", true);
   }
 
