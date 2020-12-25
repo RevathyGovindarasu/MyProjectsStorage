@@ -21,8 +21,8 @@ public class TestCase1 {
 
 	
 	 public static ConfigurationReader conf = new ConfigurationReader();
-/*		public static WebDriver driver;
-	 @BeforeSuite
+		public static WebDriver driver;
+	/* @BeforeSuite
 	  public void beforeSuite() {
 	  	  System.out.println("Starting the browser session");
 	  	 System.setProperty("webdriver.chrome.driver", conf.getDriverPath());
@@ -63,16 +63,17 @@ public class TestCase1 {
 	  Reporter.log("retrieved title", true);
   }
 
-  @BeforeMethod
+ @BeforeSuite
   public void beforeMethod() {
 	  SetUp.setUpBrowser();
   	  System.out.println("test case 1 starts......");
   }
  
-  @AfterMethod
+  @AfterSuite
   public void afterMethod() {
 	  SetUp.tearDown();
   	  System.out.println("Test case 1 ends.....");
   	 // driver.quit();
   }
+  
 }

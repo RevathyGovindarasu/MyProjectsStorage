@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Testing Google Apps]" parallel="methods">
-  <test name="Regression(failed)" parallel="methods">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="Tests.TestCase2">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="f"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Tests.TestCase2 -->
       <class name="Tests.TestCase1">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
+          <include name="getTitle"/>
+          <include name="getURL"/>
           <include name="getText"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- Tests.TestCase1 -->
     </classes>
-  </test> <!-- Regression(failed) -->
-</suite> <!-- Failed suite [Testing Google Apps] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -4,13 +4,16 @@
     <line>
       <![CDATA[retrieved title]]>
     </line>
+    <line>
+      <![CDATA[Retrieved text]]>
+    </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="62" started-at="2020-12-24T22:50:11Z" finished-at="2020-12-24T22:50:11Z">
+  <suite name="Command line suite" duration-ms="46" started-at="2020-12-25T02:10:47Z" finished-at="2020-12-25T02:10:47Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="62" started-at="2020-12-24T22:50:11Z" finished-at="2020-12-24T22:50:11Z">
+    <test name="Command line test" duration-ms="46" started-at="2020-12-25T02:10:47Z" finished-at="2020-12-25T02:10:47Z">
       <class name="NewPractice.newpractice.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(NewPractice.newpractice.AppTest)]" name="testApp" duration-ms="2" started-at="2020-12-24T14:50:11Z" finished-at="2020-12-24T14:50:11Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(NewPractice.newpractice.AppTest)]" name="testApp" duration-ms="5" started-at="2020-12-24T18:10:47Z" finished-at="2020-12-24T18:10:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->

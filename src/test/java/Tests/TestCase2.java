@@ -23,14 +23,15 @@ public class TestCase2 {
  
   @BeforeMethod
   public void beforeMethod() {
-	  SetUp.setUpBrowser();
+	 
   	  System.out.println("test case 2 starts......");
   }
  
   @AfterMethod
   public void afterMethod() {
-	  SetUp.tearDown();
+	
   	  System.out.println("Test case 2 ends.....");
   	 // driver.quit();
   }
+  
 }

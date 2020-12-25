@@ -8,6 +8,8 @@
           <include name="getTitle"/>
           <include name="getURL"/>
           <include name="getText"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
         </methods>
       </class> <!-- Tests.TestCase1 -->
     </classes>
